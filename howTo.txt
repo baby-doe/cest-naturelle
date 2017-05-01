@@ -1,0 +1,24 @@
+How this works
+
+Aim of the mod is to replace the existing Player Figure, what is calles the "Player Pawn".
+There are three of them, one for Male, one for Female players and one for the Testing in the Dev Kit.
+The Pawn is controlled by blueprints that point to an skeletal mesh, that's where you will start your work.
+
+First you need to create an skeletal mesh, you can start by exporting the vanilla mesh as FBX and doing your modifications with blender et al.
+While doing this you must ensure that you keep your meshes for head, hair and body separated. Use the materials to select the partial meshes.
+The second thing to take care of is the UV mapping, make sure you keep the same as the vanilla pawn or you'll end up redoing all textures.
+Last but not least, keep the skeleton unmodified, you want to REUSE THE VANILLA SKELETON when you reimport the mesh or you'll end up redoing all animations. You really wan't do that.
+
+Now you'll reimport your modfied mesh, you will use the vanilla skeleton and physic assets and you WON'T modify these.
+Next you'll create children of the Player Pawn blueprints, and you'll replace the old meshes with your new ones.
+Next change the materials for the body so that you don't have the masks.
+
+Your pawn should be ready by now.
+
+Finally you have to remap all clothing, you can create children of the engrams and BPs and remap the originals to your new (in the Primal Game BP) or just remap the BPs.
+The children BPs should get the "Not there"-masks replaced with white textures.
+
+REMAP means REMAP not replace ... Search for REMAP in the Primal Game BP ... Don't touch the Master List or Original Engram List. You are suposed to change as less as possible, eg. the pawn.
+
+Cook all together and have fun. Alternative you can use the "C'est Naturelle" mod published by my pal ignidis.
+
