@@ -4,8 +4,8 @@ Released under the GNU GENERAL PUBLIC LICENSE V3 License, see license.txt for fu
 Released via the STEAM Workshop
 http://steamcommunity.com/sharedfiles/filedetails/?id=916769399
 
-/resources/models/xxxx/blender	Contains the Pawn Meshes in blender format
-/resources/textures/xxx/		Contains the TGAs used to customiye the textures for the pawn
+/resources/models/xxxx/blender	Contains the Pawn Meshes in blender format<br>
+/resources/textures/xxx/		Contains the TGAs used to customize the textures for the pawn
 /sources/AuNaturale				These are the source files for cooking the mod
 
 "C'est Naturelle" and it's creators are in no way affiliated with Studio WildCard or its partners. 
