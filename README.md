@@ -2,7 +2,7 @@
 Released under the GNU GENERAL PUBLIC LICENSE V3 License, see license.txt for full license information.
 
 Released via the STEAM Workshop
-http://steamcommunity.com/sharedfiles/filedetails/?id=916769399
+http://steamcommunity.com/sharedfiles/filedetails/?id=917078422
 
 /resources/models/xxxx/blender Contains the Pawn Meshes in blender format
 /resources/textures/xxx/ Contains the TGAs used to customize the textures for the pawn
