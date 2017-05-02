@@ -19,6 +19,8 @@ Finally you have to remap all clothing, you can create children of the engrams a
 The children BPs should get the "Not there"-masks replaced with white textures.
 
 REMAP means REMAP not replace ... Search for REMAP in the Primal Game BP ... Don't touch the Master List or Original Engram List. You are suposed to change as less as possible, eg. the pawn.
+I suggest you remap only the items, as remaping the engrams will require the player to (re)learn these. If you only remap the items any existing vanilla clothes in the players inventory will automatically be corrected and any engrams already learn will stay as learnt.
+
 
 Cook all together and have fun. Alternative you can use the "C'est Naturelle" mod published by my pal ignidis.
 
